@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "financas-python"
+version = "0.1.0"
+description = "Biblioteca de apoio ao livro Finanças com Python: Da Teoria à Aplicação"
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.24", "scipy>=1.10"]
+[project.optional-dependencies]
+teste = ["pytest"]
+[tool.setuptools]
+packages = ["financas_python"]
